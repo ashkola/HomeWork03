@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		842F004A1822372700BED66E /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F00491822372700BED66E /* RoutesViewController.m */; };
 		842F004D18223A0000BED66E /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F004C18223A0000BED66E /* TopCell.m */; };
-		842F005018223A1600BED66E /* BottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F004F18223A1600BED66E /* BottomCell.m */; };
 		842F0053182246E500BED66E /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F0052182246E500BED66E /* Transport.m */; };
 		842F00561822476C00BED66E /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F00551822476C00BED66E /* Vehicle.m */; };
 		8469636F182233BC005C98CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8469636E182233BC005C98CC /* Foundation.framework */; };
@@ -25,6 +24,9 @@
 		84696390182233BC005C98CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84696372182233BC005C98CC /* UIKit.framework */; };
 		84696398182233BC005C98CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84696396182233BC005C98CC /* InfoPlist.strings */; };
 		8469639A182233BC005C98CC /* HomeWork03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84696399182233BC005C98CC /* HomeWork03Tests.m */; };
+		84EC3DEE1827D330009F6224 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DEB1827D330009F6224 /* JASidePanelController.m */; };
+		84EC3DEF1827D330009F6224 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DED1827D330009F6224 /* UIViewController+JASidePanel.m */; };
+		84EC3DF21827D400009F6224 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DF11827D400009F6224 /* SidePanelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +44,6 @@
 		842F00491822372700BED66E /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesViewController.m; path = UI/RoutesViewController.m; sourceTree = "<group>"; };
 		842F004B18223A0000BED66E /* TopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopCell.h; path = UI/TopCell.h; sourceTree = "<group>"; };
 		842F004C18223A0000BED66E /* TopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopCell.m; path = UI/TopCell.m; sourceTree = "<group>"; };
-		842F004E18223A1600BED66E /* BottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BottomCell.h; path = UI/BottomCell.h; sourceTree = "<group>"; };
-		842F004F18223A1600BED66E /* BottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BottomCell.m; path = UI/BottomCell.m; sourceTree = "<group>"; };
 		842F0051182246E500BED66E /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transport.h; path = API/Transport.h; sourceTree = "<group>"; };
 		842F0052182246E500BED66E /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transport.m; path = API/Transport.m; sourceTree = "<group>"; };
 		842F00541822476C00BED66E /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = API/Vehicle.h; sourceTree = "<group>"; };
@@ -65,6 +65,12 @@
 		84696395182233BC005C98CC /* HomeWork03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork03Tests-Info.plist"; sourceTree = "<group>"; };
 		84696397182233BC005C98CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84696399182233BC005C98CC /* HomeWork03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork03Tests.m; sourceTree = "<group>"; };
+		84EC3DEA1827D330009F6224 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		84EC3DEB1827D330009F6224 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		84EC3DEC1827D330009F6224 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		84EC3DED1827D330009F6224 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		84EC3DF01827D400009F6224 /* SidePanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidePanelViewController.h; path = UI/SidePanelViewController.h; sourceTree = "<group>"; };
+		84EC3DF11827D400009F6224 /* SidePanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidePanelViewController.m; path = UI/SidePanelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +139,12 @@
 				84696375182233BC005C98CC /* Supporting Files */,
 				842F004B18223A0000BED66E /* TopCell.h */,
 				842F004C18223A0000BED66E /* TopCell.m */,
-				842F004E18223A1600BED66E /* BottomCell.h */,
-				842F004F18223A1600BED66E /* BottomCell.m */,
 				842F0051182246E500BED66E /* Transport.h */,
 				842F0052182246E500BED66E /* Transport.m */,
 				842F00541822476C00BED66E /* Vehicle.h */,
 				842F00551822476C00BED66E /* Vehicle.m */,
+				84EC3DF01827D400009F6224 /* SidePanelViewController.h */,
+				84EC3DF11827D400009F6224 /* SidePanelViewController.m */,
 			);
 			path = HomeWork03;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 		84696375182233BC005C98CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84EC3DE91827D330009F6224 /* Source */,
 				84696376182233BC005C98CC /* HomeWork03-Info.plist */,
 				84696377182233BC005C98CC /* InfoPlist.strings */,
 				8469637A182233BC005C98CC /* main.m */,
@@ -170,6 +177,17 @@
 				84696396182233BC005C98CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EC3DE91827D330009F6224 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3DEA1827D330009F6224 /* JASidePanelController.h */,
+				84EC3DEB1827D330009F6224 /* JASidePanelController.m */,
+				84EC3DEC1827D330009F6224 /* UIViewController+JASidePanel.h */,
+				84EC3DED1827D330009F6224 /* UIViewController+JASidePanel.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,12 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC3DF21827D400009F6224 /* SidePanelViewController.m in Sources */,
+				84EC3DEF1827D330009F6224 /* UIViewController+JASidePanel.m in Sources */,
 				8469637F182233BC005C98CC /* AppDelegate.m in Sources */,
 				8469637B182233BC005C98CC /* main.m in Sources */,
-				842F005018223A1600BED66E /* BottomCell.m in Sources */,
 				842F00561822476C00BED66E /* Vehicle.m in Sources */,
 				842F0053182246E500BED66E /* Transport.m in Sources */,
 				842F004A1822372700BED66E /* RoutesViewController.m in Sources */,
+				84EC3DEE1827D330009F6224 /* JASidePanelController.m in Sources */,
 				842F004D18223A0000BED66E /* TopCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
