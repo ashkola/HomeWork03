@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45412A6B4EAF48FD9F600641 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7B3F3FB01C42148E3AE8F5 /* libPods.a */; };
 		842F004A1822372700BED66E /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F00491822372700BED66E /* RoutesViewController.m */; };
 		842F004D18223A0000BED66E /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F004C18223A0000BED66E /* TopCell.m */; };
 		842F0053182246E500BED66E /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F0052182246E500BED66E /* Transport.m */; };
 		842F00561822476C00BED66E /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F00551822476C00BED66E /* Vehicle.m */; };
+		84520FBE182806FB00C55857 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84520FBD182806FB00C55857 /* MapViewController.m */; };
 		8469636F182233BC005C98CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8469636E182233BC005C98CC /* Foundation.framework */; };
 		84696371182233BC005C98CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84696370182233BC005C98CC /* CoreGraphics.framework */; };
 		84696373182233BC005C98CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84696372182233BC005C98CC /* UIKit.framework */; };
@@ -24,8 +26,7 @@
 		84696390182233BC005C98CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84696372182233BC005C98CC /* UIKit.framework */; };
 		84696398182233BC005C98CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84696396182233BC005C98CC /* InfoPlist.strings */; };
 		8469639A182233BC005C98CC /* HomeWork03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84696399182233BC005C98CC /* HomeWork03Tests.m */; };
-		84EC3DEE1827D330009F6224 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DEB1827D330009F6224 /* JASidePanelController.m */; };
-		84EC3DEF1827D330009F6224 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DED1827D330009F6224 /* UIViewController+JASidePanel.m */; };
+		84A16C4C182B9D4F00CBC21A /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */; };
 		84EC3DF21827D400009F6224 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DF11827D400009F6224 /* SidePanelViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		814521A5D3EE41D78B7581AA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		842F00481822372700BED66E /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutesViewController.h; path = UI/RoutesViewController.h; sourceTree = "<group>"; };
 		842F00491822372700BED66E /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesViewController.m; path = UI/RoutesViewController.m; sourceTree = "<group>"; };
 		842F004B18223A0000BED66E /* TopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopCell.h; path = UI/TopCell.h; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		842F0052182246E500BED66E /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transport.m; path = API/Transport.m; sourceTree = "<group>"; };
 		842F00541822476C00BED66E /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = API/Vehicle.h; sourceTree = "<group>"; };
 		842F00551822476C00BED66E /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicle.m; path = API/Vehicle.m; sourceTree = "<group>"; };
+		84520FBC182806FB00C55857 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = UI/MapViewController.h; sourceTree = "<group>"; };
+		84520FBD182806FB00C55857 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = UI/MapViewController.m; sourceTree = "<group>"; };
 		8469636B182233BC005C98CC /* HomeWork03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8469636E182233BC005C98CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84696370182233BC005C98CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,12 +69,11 @@
 		84696395182233BC005C98CC /* HomeWork03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork03Tests-Info.plist"; sourceTree = "<group>"; };
 		84696397182233BC005C98CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84696399182233BC005C98CC /* HomeWork03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork03Tests.m; sourceTree = "<group>"; };
-		84EC3DEA1827D330009F6224 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
-		84EC3DEB1827D330009F6224 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
-		84EC3DEC1827D330009F6224 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
-		84EC3DED1827D330009F6224 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		84A16C4A182B9D4F00CBC21A /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailedViewController.h; path = UI/DetailedViewController.h; sourceTree = "<group>"; };
+		84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailedViewController.m; path = UI/DetailedViewController.m; sourceTree = "<group>"; };
 		84EC3DF01827D400009F6224 /* SidePanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidePanelViewController.h; path = UI/SidePanelViewController.h; sourceTree = "<group>"; };
 		84EC3DF11827D400009F6224 /* SidePanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidePanelViewController.m; path = UI/SidePanelViewController.m; sourceTree = "<group>"; };
+		DE7B3F3FB01C42148E3AE8F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 				84696371182233BC005C98CC /* CoreGraphics.framework in Frameworks */,
 				84696373182233BC005C98CC /* UIKit.framework in Frameworks */,
 				8469636F182233BC005C98CC /* Foundation.framework in Frameworks */,
+				45412A6B4EAF48FD9F600641 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +108,7 @@
 				84696393182233BC005C98CC /* HomeWork03Tests */,
 				8469636D182233BC005C98CC /* Frameworks */,
 				8469636C182233BC005C98CC /* Products */,
+				814521A5D3EE41D78B7581AA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +128,7 @@
 				84696370182233BC005C98CC /* CoreGraphics.framework */,
 				84696372182233BC005C98CC /* UIKit.framework */,
 				8469638D182233BC005C98CC /* XCTest.framework */,
+				DE7B3F3FB01C42148E3AE8F5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +151,10 @@
 				842F00551822476C00BED66E /* Vehicle.m */,
 				84EC3DF01827D400009F6224 /* SidePanelViewController.h */,
 				84EC3DF11827D400009F6224 /* SidePanelViewController.m */,
+				84520FBC182806FB00C55857 /* MapViewController.h */,
+				84520FBD182806FB00C55857 /* MapViewController.m */,
+				84A16C4A182B9D4F00CBC21A /* DetailedViewController.h */,
+				84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */,
 			);
 			path = HomeWork03;
 			sourceTree = "<group>";
@@ -152,7 +162,6 @@
 		84696375182233BC005C98CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84EC3DE91827D330009F6224 /* Source */,
 				84696376182233BC005C98CC /* HomeWork03-Info.plist */,
 				84696377182233BC005C98CC /* InfoPlist.strings */,
 				8469637A182233BC005C98CC /* main.m */,
@@ -179,17 +188,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		84EC3DE91827D330009F6224 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				84EC3DEA1827D330009F6224 /* JASidePanelController.h */,
-				84EC3DEB1827D330009F6224 /* JASidePanelController.m */,
-				84EC3DEC1827D330009F6224 /* UIViewController+JASidePanel.h */,
-				84EC3DED1827D330009F6224 /* UIViewController+JASidePanel.m */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8469639D182233BC005C98CC /* Build configuration list for PBXNativeTarget "HomeWork03" */;
 			buildPhases = (
+				63B72B63547B4807AE53407F /* Check Pods Manifest.lock */,
 				84696367182233BC005C98CC /* Sources */,
 				84696368182233BC005C98CC /* Frameworks */,
 				84696369182233BC005C98CC /* Resources */,
+				CD41D7BCA8354F41B6E10654 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,19 +282,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63B72B63547B4807AE53407F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD41D7BCA8354F41B6E10654 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84696367182233BC005C98CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84EC3DF21827D400009F6224 /* SidePanelViewController.m in Sources */,
-				84EC3DEF1827D330009F6224 /* UIViewController+JASidePanel.m in Sources */,
+				84A16C4C182B9D4F00CBC21A /* DetailedViewController.m in Sources */,
 				8469637F182233BC005C98CC /* AppDelegate.m in Sources */,
 				8469637B182233BC005C98CC /* main.m in Sources */,
 				842F00561822476C00BED66E /* Vehicle.m in Sources */,
 				842F0053182246E500BED66E /* Transport.m in Sources */,
 				842F004A1822372700BED66E /* RoutesViewController.m in Sources */,
-				84EC3DEE1827D330009F6224 /* JASidePanelController.m in Sources */,
+				84520FBE182806FB00C55857 /* MapViewController.m in Sources */,
 				842F004D18223A0000BED66E /* TopCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,26 +452,32 @@
 		};
 		8469639E182233BC005C98CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814521A5D3EE41D78B7581AA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeWork03/HomeWork03-Prefix.pch";
 				INFOPLIST_FILE = "HomeWork03/HomeWork03-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		8469639F182233BC005C98CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814521A5D3EE41D78B7581AA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeWork03/HomeWork03-Prefix.pch";
 				INFOPLIST_FILE = "HomeWork03/HomeWork03-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
