@@ -12,6 +12,8 @@
 		842F004D18223A0000BED66E /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F004C18223A0000BED66E /* TopCell.m */; };
 		842F0053182246E500BED66E /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F0052182246E500BED66E /* Transport.m */; };
 		842F00561822476C00BED66E /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F00551822476C00BED66E /* Vehicle.m */; };
+		8444474A1830339C00D5F824 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 844447491830339C00D5F824 /* Route.m */; };
+		8444474D183038E700D5F824 /* APIRouteClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444474C183038E700D5F824 /* APIRouteClient.m */; };
 		84520FBE182806FB00C55857 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84520FBD182806FB00C55857 /* MapViewController.m */; };
 		8469636F182233BC005C98CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8469636E182233BC005C98CC /* Foundation.framework */; };
 		84696371182233BC005C98CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84696370182233BC005C98CC /* CoreGraphics.framework */; };
@@ -50,6 +52,10 @@
 		842F0052182246E500BED66E /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transport.m; path = API/Transport.m; sourceTree = "<group>"; };
 		842F00541822476C00BED66E /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = API/Vehicle.h; sourceTree = "<group>"; };
 		842F00551822476C00BED66E /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicle.m; path = API/Vehicle.m; sourceTree = "<group>"; };
+		844447481830339C00D5F824 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		844447491830339C00D5F824 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		8444474B183038E700D5F824 /* APIRouteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIRouteClient.h; path = API/APIRouteClient.h; sourceTree = "<group>"; };
+		8444474C183038E700D5F824 /* APIRouteClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIRouteClient.m; path = API/APIRouteClient.m; sourceTree = "<group>"; };
 		84520FBC182806FB00C55857 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = UI/MapViewController.h; sourceTree = "<group>"; };
 		84520FBD182806FB00C55857 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = UI/MapViewController.m; sourceTree = "<group>"; };
 		8469636B182233BC005C98CC /* HomeWork03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork03.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +107,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84444745183032FD00D5F824 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8444474B183038E700D5F824 /* APIRouteClient.h */,
+				8444474C183038E700D5F824 /* APIRouteClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		844447461830331000D5F824 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				842F004B18223A0000BED66E /* TopCell.h */,
+				842F004C18223A0000BED66E /* TopCell.m */,
+				84EC3DF01827D400009F6224 /* SidePanelViewController.h */,
+				84EC3DF11827D400009F6224 /* SidePanelViewController.m */,
+				84520FBC182806FB00C55857 /* MapViewController.h */,
+				84520FBD182806FB00C55857 /* MapViewController.m */,
+				84A16C4A182B9D4F00CBC21A /* DetailedViewController.h */,
+				84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */,
+				842F00481822372700BED66E /* RoutesViewController.h */,
+				842F00491822372700BED66E /* RoutesViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		844447471830337B00D5F824 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842F0051182246E500BED66E /* Transport.h */,
+				842F0052182246E500BED66E /* Transport.m */,
+				842F00541822476C00BED66E /* Vehicle.h */,
+				842F00551822476C00BED66E /* Vehicle.m */,
+				844447481830339C00D5F824 /* Route.h */,
+				844447491830339C00D5F824 /* Route.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		84696362182233BC005C98CC = {
 			isa = PBXGroup;
 			children = (
@@ -136,25 +181,14 @@
 		84696374182233BC005C98CC /* HomeWork03 */ = {
 			isa = PBXGroup;
 			children = (
+				844447471830337B00D5F824 /* Model */,
+				844447461830331000D5F824 /* UI */,
+				84444745183032FD00D5F824 /* API */,
 				8469637D182233BC005C98CC /* AppDelegate.h */,
 				8469637E182233BC005C98CC /* AppDelegate.m */,
-				842F00481822372700BED66E /* RoutesViewController.h */,
-				842F00491822372700BED66E /* RoutesViewController.m */,
 				84696380182233BC005C98CC /* Main.storyboard */,
 				84696386182233BC005C98CC /* Images.xcassets */,
 				84696375182233BC005C98CC /* Supporting Files */,
-				842F004B18223A0000BED66E /* TopCell.h */,
-				842F004C18223A0000BED66E /* TopCell.m */,
-				842F0051182246E500BED66E /* Transport.h */,
-				842F0052182246E500BED66E /* Transport.m */,
-				842F00541822476C00BED66E /* Vehicle.h */,
-				842F00551822476C00BED66E /* Vehicle.m */,
-				84EC3DF01827D400009F6224 /* SidePanelViewController.h */,
-				84EC3DF11827D400009F6224 /* SidePanelViewController.m */,
-				84520FBC182806FB00C55857 /* MapViewController.h */,
-				84520FBD182806FB00C55857 /* MapViewController.m */,
-				84A16C4A182B9D4F00CBC21A /* DetailedViewController.h */,
-				84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */,
 			);
 			path = HomeWork03;
 			sourceTree = "<group>";
@@ -321,10 +355,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EC3DF21827D400009F6224 /* SidePanelViewController.m in Sources */,
+				8444474D183038E700D5F824 /* APIRouteClient.m in Sources */,
 				84A16C4C182B9D4F00CBC21A /* DetailedViewController.m in Sources */,
 				8469637F182233BC005C98CC /* AppDelegate.m in Sources */,
 				8469637B182233BC005C98CC /* main.m in Sources */,
 				842F00561822476C00BED66E /* Vehicle.m in Sources */,
+				8444474A1830339C00D5F824 /* Route.m in Sources */,
 				842F0053182246E500BED66E /* Transport.m in Sources */,
 				842F004A1822372700BED66E /* RoutesViewController.m in Sources */,
 				84520FBE182806FB00C55857 /* MapViewController.m in Sources */,

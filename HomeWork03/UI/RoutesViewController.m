@@ -81,7 +81,7 @@
     TopCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     cell.nameLabel.text = [NSString stringWithFormat:@"Маршрут %@", [[_vehicles objectAtIndex:indexPath.row] objectForKey:@"route_title"]];
     cell.priceLabel.text = [NSString stringWithFormat:@"%@ грн.", [[_vehicles objectAtIndex:indexPath.row] objectForKey:@"route_price"]];
-    cell.image.image = [UIImage imageNamed:@"checked"];
+    cell.image.image = [UIImage imageNamed:@"unchecked"];
     return cell;
 }
 
