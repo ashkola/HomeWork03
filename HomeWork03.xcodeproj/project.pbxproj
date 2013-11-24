@@ -28,6 +28,8 @@
 		84696390182233BC005C98CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84696372182233BC005C98CC /* UIKit.framework */; };
 		84696398182233BC005C98CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84696396182233BC005C98CC /* InfoPlist.strings */; };
 		8469639A182233BC005C98CC /* HomeWork03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84696399182233BC005C98CC /* HomeWork03Tests.m */; };
+		8491B57518397FA700D6BB35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491B57418397FA700D6BB35 /* CoreData.framework */; };
+		8491B5791839891100D6BB35 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8491B5771839891100D6BB35 /* Model.xcdatamodeld */; };
 		84A16C4C182B9D4F00CBC21A /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */; };
 		84EC3DF21827D400009F6224 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3DF11827D400009F6224 /* SidePanelViewController.m */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		84696395182233BC005C98CC /* HomeWork03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork03Tests-Info.plist"; sourceTree = "<group>"; };
 		84696397182233BC005C98CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84696399182233BC005C98CC /* HomeWork03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork03Tests.m; sourceTree = "<group>"; };
+		8491B57418397FA700D6BB35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8491B5781839891100D6BB35 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		84A16C4A182B9D4F00CBC21A /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailedViewController.h; path = UI/DetailedViewController.h; sourceTree = "<group>"; };
 		84A16C4B182B9D4F00CBC21A /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailedViewController.m; path = UI/DetailedViewController.m; sourceTree = "<group>"; };
 		84EC3DF01827D400009F6224 /* SidePanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidePanelViewController.h; path = UI/SidePanelViewController.h; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8491B57518397FA700D6BB35 /* CoreData.framework in Frameworks */,
 				84696371182233BC005C98CC /* CoreGraphics.framework in Frameworks */,
 				84696373182233BC005C98CC /* UIKit.framework in Frameworks */,
 				8469636F182233BC005C98CC /* Foundation.framework in Frameworks */,
@@ -169,6 +174,7 @@
 		8469636D182233BC005C98CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8491B57418397FA700D6BB35 /* CoreData.framework */,
 				8469636E182233BC005C98CC /* Foundation.framework */,
 				84696370182233BC005C98CC /* CoreGraphics.framework */,
 				84696372182233BC005C98CC /* UIKit.framework */,
@@ -181,6 +187,7 @@
 		84696374182233BC005C98CC /* HomeWork03 */ = {
 			isa = PBXGroup;
 			children = (
+				8491B576183988E000D6BB35 /* CoreData */,
 				844447471830337B00D5F824 /* Model */,
 				844447461830331000D5F824 /* UI */,
 				84444745183032FD00D5F824 /* API */,
@@ -220,6 +227,14 @@
 				84696396182233BC005C98CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8491B576183988E000D6BB35 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8491B5771839891100D6BB35 /* Model.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +380,7 @@
 				842F004A1822372700BED66E /* RoutesViewController.m in Sources */,
 				84520FBE182806FB00C55857 /* MapViewController.m in Sources */,
 				842F004D18223A0000BED66E /* TopCell.m in Sources */,
+				8491B5791839891100D6BB35 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +607,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8491B5771839891100D6BB35 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8491B5781839891100D6BB35 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8491B5781839891100D6BB35 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84696363182233BC005C98CC /* Project object */;
 }

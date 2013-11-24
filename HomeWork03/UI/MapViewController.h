@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Route.h"
 @interface MapViewController : UIViewController
 - (IBAction)singleTapAction:(id)sender;
-
+@property (weak, nonatomic) Route *mapRoute;
 @end

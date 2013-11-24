@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface Route : NSObject
+@interface Route : NSManagedObject
 @property (nonatomic,strong) NSString* route_id;
 @property (nonatomic,strong) NSString* route_description;
 @property (nonatomic,strong) NSString* route_path;
